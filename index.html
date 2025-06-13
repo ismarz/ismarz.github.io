@@ -1,26 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Ejemplo CSS</title>
-<style>
-body {
-  background-color: lightblue;
-}
-p {
-  font-family: Arial;
-  color: blue;
-}
-h1 {
-  text-align: center;
-  color: navy;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ismarz – Front-End Developer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>Isma Rez</h1>
+    <p>Front-End Developer · UI/UX Lover</p>
+    <nav>
+      <a href="#proyectos">Proyectos</a>
+      <a href="https://github.com/ismarz" target="_blank">GitHub</a>
+      <a href="mailto:ismarz@email.com">Contacto</a>
+    </nav>
+  </header>
 
-<h1>Hola, mundo!</h1>
+  <section class="hero">
+    <h2>Bienvenido a mi portfolio</h2>
+    <p>Explora mis proyectos, habilidades y experimentos interactivos.</p>
+  </section>
 
-<p>Este es un párrafo de ejemplo.</p>
+  <section id="proyectos">
+    <h3>🌟 Proyectos destacados</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>🎮 Juego de Memoria</h4>
+        <p>HTML, CSS, JavaScript</p>
+        <a href="https://ismarz.github.io/juego-memoria/">Ver proyecto</a>
+      </div>
+      <div class="card">
+        <h4>📊 Dashboard de Datos</h4>
+        <p>React + Chart.js</p>
+        <a href="#">Demo próximamente</a>
+      </div>
+      <div class="card">
+        <h4>📝 Lista de Tareas</h4>
+        <p>Vanilla JS + LocalStorage</p>
+        <a href="#">Ver código</a>
+      </div>
+    </div>
+  </section>
 
+  <footer>
+    <p>© 2025 Isma Rez. Desarrollado con ❤️ y café.</p>
+  </footer>
 </body>
 </html>
